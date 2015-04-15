@@ -16,6 +16,9 @@ This code is used by Georgetown University Library to customize the display of S
 * Need to mark results that have already been processed
 * Need to process markup that is added later
 
+![before](https://raw.githubusercontent.com/Georgetown-University-Libraries/SummonCustomization/master/docs/before.png)
+![after](docs/after.png)
+
 ### Additional Information
 [Hacking Summon 2.0 - Presentation to the Washington Research Library Consortium](https://drive.google.com/a/georgetown.edu/folderview?id=0B6H9N0_0aU-oY25NSF9XZ2diUW8&usp=sharing#)
 
