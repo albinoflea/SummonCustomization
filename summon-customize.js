@@ -73,8 +73,9 @@ function testOnlineHolding(n) {
 		var t = $(this).text();
 		if (t.search(/Full Text Online/) > -1) {
 			b = true;
-		}
-		else if (t.search(/Available Online/) > -1) {
+		} else if (t.search(/Citation Online/) > -1) {
+			b = true;
+		} else if (t.search(/Available Online/) > -1) {
 			b = true;
 		} else if (t.search(/Check Availability/) > -1) {
 			var tl = $(n).find("span.ng-binding").text(); 
