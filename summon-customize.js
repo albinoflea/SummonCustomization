@@ -11,7 +11,7 @@ $(document).ready(function () {
     $("#gu-custom-css").append(".resultsPane .imagesRollup .grid {margin-top: 0.6rem;}");
     $("#gu-custom-css").append(".resultsPane .imagesRollup .scrollBtn {background-color: #BAE0F7;}");
     $("#gu-custom-css").append(".Filter .applied:before {color: #679146;}");
-    $("#gu-custom-css").append(".clearRefinements:before, .icon-remove-sign:before {color: #98002e;}");
+    $("#gu-custom-css").append(".clearRefinements.customPrimaryLink::before, .icon-remove-sign::before {background-color: #98002e !important;}");
     $("#gu-custom-css").append("div.imagesRollup span.gu-artstor {color: #888; font-size: 0.8rem !important;}");
     $("#gu-custom-css").append("div.imagesRollup a.gu-artstor {color: rgb(0, 73, 144) !important;}");
     $("#gu-custom-css").append("div.imagesRollup a.customPrimaryLink {display:inline!important;}");
@@ -20,9 +20,8 @@ $(document).ready(function () {
     $("#gu-custom-css").append("div.siteLinks a.feedback {display: none;}");
     $("#gu-custom-css").append("div.siteLinks div.languageSwitcher {display: none;}");
     $("#gu-custom-css").append("div form.flowLogin {display: none;}");
-    $("#gu-custom-css").append(".advancedBtn .offscreen {position:relative; color: #BAE0F7; font-size: 85%;	font-weight: bold;}");
-    $("#gu-custom-css").append(".advancedBtn .caret {display: none;}");
-    $("#gu-custom-css").append(".queryBox .advancedBtn {width: 70px!important; right: -45px!important; top: -12px!important;padding-left:6px;}");
+    $("#gu-custom-css").append(".input-group-btn:last-child > .btn:last-of-type {margin-left:12px;}");
+    $("#gu-custom-css").append(".icon-cog::before {content:'Advanced Search'; color: #BAE0F7; font-size: 85%; font-weight: bold; font-family:sans-serif;}");
 	
 	checkAll();
 });
